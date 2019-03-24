@@ -30,3 +30,17 @@ l
 li = [12,24,35,70,88,120,155]
 li = [x for (i,x) in enumerate(li) if i not in (0,4,5)]
 li
+
+
+***********#delete 24******************************
+item_list = [23,24,25,24]
+item_list = [e for e in item_list if e not in {24}]
+
+**************add valeur in list *****************
+
+item_list = [23,24,25,24]
+item_list = [e for e in item_list if e not in (23,24)]
+
+
+
+
